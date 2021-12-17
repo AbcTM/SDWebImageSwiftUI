@@ -27,5 +27,6 @@ let package = Package(
             dependencies: ["SDWebImage"],
             path: "SDWebImageSwiftUI/Classes"
         ),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
